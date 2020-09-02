@@ -1,0 +1,36 @@
+@import '../vars';
+@import '../functions.scss';
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  border-top: 2px solid get-opacity($color-black, 0.3);
+  height: 70px;
+  background-color: $background-footer;
+  box-shadow: 0px 0px 12px 0px get-opacity($color-black, 0.5);
+  ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+
+    li {
+      margin: 0 10px;
+      display: flex;
+      align-items: center;
+      a {
+        text-decoration: none;
+        color: $color-black;
+        &:hover {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+}

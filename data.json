@@ -1,0 +1,70 @@
+{
+  "data": {
+    "categories": [
+      {
+        "cat1":"Laptops",
+        "cat2":"Cell Phone",
+        "cat3":"Tablets",
+        "cat4":"Digital Cameras",
+        "cat5":"TVs"
+      }
+    ],
+    "carts": [
+      {
+        "urlImage": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6301/6301725_sa.jpg",
+        "salePrice": "629.99",
+        "title": "Lenovo",
+        "description": "Yoga C630 2-in-1 15.6\" Touch-Screen Chromebook - Intel Core i5 - 8GB Memory - 128GB eMMC Flash Memory - Midnight Blue"
+      },
+      {
+        "urlImage": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6302/6302595_sa.jpg",
+        "salePrice": "1699.99",
+        "title": "ASUS",
+        "description": "11.6\" - Intel Celeron - 4GB Memory - 32GB eMMC Flash Memory - Red"
+      },
+      {
+        "urlImage": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6307/6307201_sa.jpg",
+        "salePrice": "249.99",
+        "title": "Acer - Spin",
+        "description": "Spin 1 2-in-1 11.6\" Refurbished Touch-Screen Laptop - Intel Pentium - 4GB Memory - 64GB eMMC Flash Memory - Gray"
+      },
+      {
+        "urlImage": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4599/4599600_sa.jpg",
+        "salePrice": "1699.99",
+        "title": "MacBook Pro",
+        "description": "There is a lot of exciting stuff going on in the stars above us that makes  so much fun."
+      },
+      {
+        "urlImage": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6302/6302595_sa.jpg",
+        "salePrice": "229.99",
+        "title": "ASUS",
+        "description": "Chromebook - Intel Celeron - 4GB Memory - 32GB eMMC Flash Memory - Red."
+      },
+      {
+        "urlImage": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6318/6318277_sd.jpg",
+        "salePrice": "2399.99",
+        "title": "Lenovo",
+        "description": "Intel Celeron - 4GB Memory - 32GB eMMC Flash Memory - Silver"
+      },
+      {
+        "urlImage": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6304/6304189_sd.jpg",
+        "salePrice": " 269.99",
+        "title": "ASUS",
+        "description": "Intel Celeron - 4GB Memory - 32GB eMMC Flash Memory - Gray"
+      },
+      {
+        "urlImage": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4600/4600301_sa.jpg",
+        "salePrice": "2399.99",
+        "title": "MacBook Pro",
+        "description": "There is a lot of exciting stuff going on in the stars above us that makes astronomy so much fun."
+      },
+      {
+        "urlImage": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4766/4766300_sa.jpg",
+        "salePrice": "2799.99",
+        "title": "HP - ProBook",
+        "description": "Refurbished Touch-Screen Laptop - Intel Pentium - 4GB Memory - 64GB eMMC Flash Memory - Black"
+      }
+    ]
+  }
+}
+

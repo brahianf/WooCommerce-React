@@ -1,0 +1,40 @@
+@import '../vars.scss';
+
+.category {
+    width: 90%;
+    margin: 30px auto 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    @media (max-width: 420px){
+        flex-direction: column;
+    }
+    &__item {
+        text-decoration:none;
+    }
+    & p {
+        margin: 0 20px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+        letter-spacing: 1.75px;
+        text-transform: uppercase;
+        color: $color-black;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        @media (max-width: 767px){
+            font-size: 14px;
+            margin: 10px auto;
+        }
+        &:hover{
+            text-decoration: underline;
+            color: $color-main;
+            transform: scale(1.1);
+            opacity: 1;
+        }
+    }
+
+}

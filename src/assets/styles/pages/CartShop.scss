@@ -1,0 +1,51 @@
+@import '../vars.scss';
+@import '../functions.scss';
+
+.CartShop {
+  width: 70%;
+  height: 350px;
+  margin: 20px auto;
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px 20px;
+  @media (max-width: 576px){
+    margin-left: 20px;
+  }
+  & p {
+    text-align: center;
+  }
+  & > p {
+    grid-column: 1 / -1;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: start;
+  }
+  & label {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+
+  &__totalCount {
+    grid-column: 3 / -1;
+    & label {
+      font-weight: bold;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+
+  &__button{
+    grid-column: 4 / -1;
+    display: flex;
+    justify-content: space-around;
+    @media (max-width: 576px){
+       flex-direction: column;
+    }
+    & button {
+      margin: 10px auto;
+    }
+  }
+}

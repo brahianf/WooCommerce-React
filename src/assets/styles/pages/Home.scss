@@ -1,0 +1,121 @@
+@import '../vars.scss';
+@import '../functions.scss';
+
+.categories{
+    justify-content:center;
+}
+
+.home {
+    width: 90%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns:30% 30% 30%;
+    gap: 30px 30px;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 992px){
+        display: grid;
+        grid-template-columns: none;
+        grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 767px){
+        grid-template-columns: 339px;
+        padding: 0 20px;
+    }
+
+    &__card {
+        height: 100%;
+        width: 100%;
+        margin: auto 0;
+        // grid-row-end: span 2;
+        box-sizing: border-box;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+        text-align: center;
+        align-self: center;
+        &--img {
+            position: relative;
+            & img {
+                height: 100%;
+                width: 80%;
+            }
+        }
+
+        &--buttons {
+            display: flex;
+            position: absolute;
+            bottom: 0px;
+            left: 150px;
+            height: 55px;
+            & button {
+                margin: 0 10px;
+                width: 50px;
+                height: 50px;
+                padding: 5px;
+                border: 1px solid $color-black;
+                border-radius: 50%;
+                background-color: $color-white;
+                
+                & img {
+                    width: 40px;
+                    height: 40px;
+                    cursor: pointer;
+                }
+            }
+        }
+        
+        &--price {
+           display:flex;
+           justify-content:center;
+           align-items: center;
+           position: absolute;
+           left:-5px;
+           bottom: 5px;
+           width:137px;
+           height: 40px;
+           text-decoration: uppercase;
+           background: get-opacity($color-main,0.8);
+           font-family: Oswald;
+           font-style: normal;
+           font-weight: bold;
+           font-size: 20px;
+           line-height: 21px;
+           /* identical to box height */
+           letter-spacing: 1.75px;
+           text-transform: uppercase;
+           color: $color-black;
+           text-align:center;
+       }
+
+       &--title{
+           width: 90%;
+           height: min-content;
+           margin: 10px 0;
+           font-family: Lato;
+           font-style: normal;
+           font-weight: 600;
+           font-size: 26px;
+           line-height: 30px;
+           /* or 115% */
+
+           letter-spacing: -0.216667px;
+
+           color: #1D1F24;
+       }
+
+       &--description{
+           width: 90%;;
+           height: min-content;
+           margin: 10px 0;
+           font-family: Lato;
+           font-style: normal;
+           font-weight: normal;
+           font-size: 18px;
+           line-height: 28px;
+           color: #1D1F24;
+           mix-blend-mode: normal;
+           opacity: 0.9;
+       }
+       
+    }
+}
